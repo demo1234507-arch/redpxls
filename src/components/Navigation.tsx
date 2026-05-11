@@ -20,12 +20,12 @@ export default function Navigation() {
                     <a href="/#process" className="nav-link hover:text-red-600 transition-colors">Process</a>
                     <a href="/#work" className="nav-link hover:text-red-600 transition-colors">Work</a>
                     <a href="/#casestudies" className="nav-link hover:text-red-600 transition-colors">Case Studies</a>
-                    <a href="/#roi" className="nav-link hover:text-red-600 transition-colors">ROI Focus</a>
-                    <a href="/#booking" className="nav-link hover:text-red-600 transition-colors">Book</a>
+                    <a href="/about" className="nav-link hover:text-red-600 transition-colors">About us</a>
+                    <a href="/contact-us" className="nav-link hover:text-red-600 transition-colors">Contact</a>
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <a href="/#booking" className="pixel-button text-xs tracking-widest uppercase hidden sm:inline-flex">Start Project</a>
+                    <a href="/bookcall" className="pixel-button text-xs tracking-widest uppercase hidden sm:inline-flex">Book a Call</a>
                     <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>
                         <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             {isOpen ? (
@@ -44,9 +44,8 @@ export default function Navigation() {
                     <a href="/#process" onClick={() => setIsOpen(false)} className="hover:text-red-600">Process</a>
                     <a href="/#work" onClick={() => setIsOpen(false)} className="hover:text-red-600">Work</a>
                     <a href="/#casestudies" onClick={() => setIsOpen(false)} className="hover:text-red-600">Case Studies</a>
-                    <a href="/#roi" onClick={() => setIsOpen(false)} className="hover:text-red-600">ROI Focus</a>
-                    <a href="/#booking" onClick={() => setIsOpen(false)} className="hover:text-red-600">Book</a>
-                    <a href="/#booking" onClick={() => setIsOpen(false)} className="pixel-button text-xs tracking-widest uppercase text-center mt-4">Start Project</a>
+                    <a href="/about" onClick={() => setIsOpen(false)} className="hover:text-red-600">About us</a> 
+                    <a href="/contact-us" onClick={() => setIsOpen(false)} className="pixel-button text-xs tracking-widest uppercase text-center mt-4">Contact</a>
                 </div>
             )}
         </nav>

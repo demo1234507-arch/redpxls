@@ -7,7 +7,7 @@ export default function Booking() {
                 </div>
                 <h2 className="text-4xl md:text-5xl lg:text-7xl font-black tracking-tighter mb-8 mt-4 md:mt-0">READY TO BE THE NEXT <br/><span className="text-red-600">UNICORN?</span></h2>
                 <div className="flex flex-col items-center gap-6">
-                    <a href="https://calendly.com" target="_blank" rel="noreferrer" className="pixel-button px-8 md:px-16 py-4 md:py-6 text-xl md:text-2xl uppercase tracking-tighter w-full sm:w-auto text-center justify-center">BOOK CALENDLY SLOT</a>
+                    <a href="https://calendly.com/contact-redpxls/30min" target="_blank" rel="noreferrer" className="pixel-button px-8 md:px-16 py-4 md:py-6 text-xl md:text-2xl uppercase tracking-tighter w-full sm:w-auto text-center justify-center">BOOK CALENDLY SLOT</a>
                     <p className="text-xs font-bold text-gray-400 uppercase tracking-widest cursor-blink">System Status: Awaiting Connection</p>
                 </div>
             </div>
