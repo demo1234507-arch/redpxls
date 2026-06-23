@@ -3,7 +3,7 @@ export default function PricingTiers() {
         {
             name: "Mini",
             price: "$299 / video",
-            description: "Clean, no-frills video that gets your message across — fast.",
+            description: "Clean, no-frills video that gets your message across fast.",
             delivery: "Delivery in ~5 business days",
             features: [
                 "Up to 60 sec video",
@@ -17,7 +17,7 @@ export default function PricingTiers() {
         {
             name: "Plus",
             price: "$699 / video",
-            description: "Motion, sound & story — the full package most SaaS teams need.",
+            description: "Motion, sound & story the full package most SaaS teams need.",
             delivery: "Delivery in ~8 business days",
             features: [
                 "Up to 90 sec video",
@@ -32,7 +32,7 @@ export default function PricingTiers() {
         {
             name: "Pro",
             price: "$999+ / video",
-            description: "Fully custom, brand-first video built to convert at every touchpoint.",
+            description: "Fully custom, brand first video built to convert at every touchpoint.",
             delivery: "Delivery in ~15 business days",
             features: [
                 "Up to 2 min video",

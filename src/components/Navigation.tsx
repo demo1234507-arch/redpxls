@@ -7,14 +7,20 @@ export default function Navigation() {
     return (
         <nav className="fixed top-0 w-full z-50 px-6 md:px-8 py-5 bg-white/90 backdrop-blur-sm border-b-2 border-black">
             <div className="max-w-7xl mx-auto flex justify-between items-center">
-                <Link to="/" className="flex items-center gap-3 group logo-group cursor-pointer">
-                    <div className="relative w-8 h-8 bg-red-600 flex items-center justify-center logo-box overflow-hidden">
-                        <div className="w-1 h-1 bg-white absolute top-1 left-1"></div>
-                        <div className="w-1 h-1 bg-white absolute bottom-1 right-1"></div>
-                        <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                    </div>
-                    <span className="text-xl font-black tracking-tighter uppercase">Red<span className="text-red-600 transition-colors group-hover:text-black">pxls</span></span>
-                </Link>
+              <Link to="/" className="flex items-center gap-3 group logo-group cursor-pointer">
+  <img
+    src="/images/logo.png"
+    alt="Redpxls Logo"
+    className="w-8 h-8 object-contain"
+  />
+
+  <span className="text-xl font-black tracking-tighter uppercase">
+    Red
+    <span className="text-red-600 transition-colors group-hover:text-black">
+      pxls
+    </span>
+  </span>
+</Link>
                 
                 <div className="hidden md:flex gap-10 text-sm font-bold uppercase tracking-widest">
                     <a href="/#process" className="nav-link hover:text-red-600 transition-colors">Process</a>
