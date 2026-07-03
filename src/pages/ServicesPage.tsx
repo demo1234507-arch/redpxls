@@ -1,8 +1,8 @@
 export default function ServicesPage() {
     const services = [
         {
-            title: "SaaS Animated Videos",
-            desc: "Premium animations that make your product look world class perfect for landing pages, ads, and pitches.",
+            title: "content repurpose",
+            desc: "convert raw podcast , webinars , linkedin lives into short and long form content for social media",
         },
         {
             title: "Explainer Videos",

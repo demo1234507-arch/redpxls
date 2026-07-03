@@ -44,13 +44,13 @@ export default function Hero() {
                     </h1>
 
                     <p className="text-xl text-gray-500 max-w-xl leading-relaxed">
-                         Redpxls makes SaaS videos that turn visitors into users animated, explainer, and demo videos built to convert.
+                         Redpxls makes videos that turn visitors into users built to convert.
 
                     </p>
 
                     <div className="flex flex-wrap gap-6 pt-4">
                         <a
-                            href="/#booking"
+                            href="/bookcall"
                             className="pixel-button px-10 py-5 text-lg"
                         >
                             Get a Quote
@@ -86,13 +86,7 @@ export default function Hero() {
                                 allowFullScreen
                             />
  
-                            {/* REC UI */}
-                            <div className="absolute top-4 left-4 flex gap-4 text-[10px] font-mono text-red-500 z-20 pointer-events-none">
-                                <span className="animate-pulse">
-                                    REC ●
-                                </span>
-                                <span>00:42:15:{frames}</span>
-                            </div>
+                           
 
                           
                         </div>

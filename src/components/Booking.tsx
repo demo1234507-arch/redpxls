@@ -1,6 +1,6 @@
 export default function Booking() {
     return (
-        <section id="booking" className="py-32 px-6 md:px-8">
+        <section className="py-32 px-6 md:px-8">
             <div className="max-w-4xl mx-auto text-center border-4 border-black p-8 md:p-16 bg-white relative reveal">
                 <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-red-600 text-white px-6 py-2 font-bold text-xs uppercase tracking-[0.3em] border-2 border-black whitespace-nowrap">
                     Limited Slots

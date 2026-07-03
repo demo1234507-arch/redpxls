@@ -7,7 +7,7 @@ export default function Footer() {
                         <div className="w-6 h-6 bg-red-600 group-hover:rotate-90 transition-transform"></div>
                         <span className="text-2xl font-black uppercase tracking-tighter">Redpxls</span>
                     </div>
-                    <p className="text-gray-500 max-w-sm leading-relaxed">The premier video partner for SaaS founders who demand ROI over aesthetics.</p>
+                    <p className="text-gray-500 max-w-sm leading-relaxed">The premier video partner for founders who demand ROI over aesthetics.</p>
                 </div>
                 
                 <div className="space-y-6">

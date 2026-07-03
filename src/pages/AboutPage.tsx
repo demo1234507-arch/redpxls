@@ -16,8 +16,8 @@ export default function AboutPage() {
                     </h1>
 
                     <p className="text-xl text-gray-500 max-w-xl leading-relaxed">
-                        Redpxls is a video studio built for SaaS companies and startups.
-                        We take your product and turn it into a story your audience instantly gets
+                        Redpxls is a video studio built for companies and startups.
+                        We take your raw video content and turn it into a story your audience instantly gets
                         and acts on.
                     </p>
 
