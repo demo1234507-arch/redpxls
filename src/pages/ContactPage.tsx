@@ -2,7 +2,7 @@ import LeadForm from "../components/LeadForm";
 
 export default function ContactPage() {
   return (
-    <main className="mx-auto max-w-3xl px-4 py-16">
+    <main className="mx-auto max-w-3xl mt-10 px-4 py-16">
       <div className="mb-8">
         <h1 className="text-4xl font-bold tracking-tight">Contact Us</h1>
         <p className="mt-3 text-gray-600">

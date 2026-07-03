@@ -43,12 +43,12 @@ useEffect(() => {
     return (
         <main>
             <Hero />
-            <Process />
+            <Process  />
             <section id="portfolio-section" className="px-4 py-24">
      <Work />
 </section>
          
-            <CaseStudies />
+            <CaseStudies  />
             {/* <ROI /> */}
             <Booking />
             <LeadModal
