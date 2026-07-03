@@ -16,7 +16,6 @@ import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
 import PricingTiers from './pages/PricingTiers';
 import BookingSection from './pages/Bookcall';
-
 export default function App() {
   return (
     <BrowserRouter>
@@ -38,7 +37,6 @@ export default function App() {
             </Routes>
           </div>
         </RevealProvider>
-        
         <Footer />
       </div>
     </BrowserRouter>
