@@ -6,13 +6,14 @@ type LeadFormProps = {
 };
 
 const serviceOptions = [
-  "Website Development",
-  "Landing Page",
-  "Video Editing",
-  "Podcast Editing",
+  "2D ANIMATION / ILLUSTRATION",
+  "3D ANIMATION SAAS",
+  "VIDEO EDITING",
+  "BRANDING",
+  "PODCAST EDITING",
   "Motion Graphics",
-  "Lead Generation System",
-  "Automation / CRM Setup",
+  "YOUTUBE VIDEO EDITING",
+  "SHORT FORM REEL EDITING",
   "Other",
 ];
 
@@ -101,7 +102,6 @@ export default function LeadForm({
             name="email"
             type="email"
             required
-            placeholder="you@example.com"
             className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none focus:border-black"
           />
         </div>
@@ -113,7 +113,6 @@ export default function LeadForm({
           <input
             name="whatsapp"
             required
-            placeholder="+91 98765 43210"
             className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none focus:border-black"
           />
         </div>
@@ -135,7 +134,6 @@ export default function LeadForm({
           </label>
           <input
             name="website"
-            placeholder="https://example.com"
             className="w-full rounded-lg border border-gray-300 px-4 py-3 outline-none focus:border-black"
           />
         </div>
