@@ -1,38 +1,34 @@
 [
   {
-    "title": "Podcast Edit Sample",
+    "title": "Podcast Edit",
     "description": "A high-retention podcast edit with captions, cuts, motion graphics, and sound design.",
     "videoUrl": "https://www.youtube.com/watch?v=aNSCzgsxwrY"
   },
   {
-    "title": "SaaS Explainer Video",
-    "description": "A clean product explainer video for a software company.",
-    "videoUrl": "https://youtu.be/YOUR_VIDEO_ID"
+    "title": "Illustration animation video",
+    "description": "I Appsys illustration animation video.",
+    "videoUrl": "https://www.youtube.com/embed/mW0ypbyR6zI?si=7nKJoSeTW7kda7IY"
   },
   {
-    "title": "Founder Talking Head Edit",
-    "description": "A premium talking-head video with captions, B-roll, and visual hooks.",
-    "videoUrl": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+    "title": "2d illustrate video",
+    "description": "Kaddy 2d Illustration Animation",
+    "videoUrl": "https://www.youtube.com/embed/_Esfb5ckPmY?si=79KXYThu0DEW033h"
   },
   {
-    "title": "Founder Talking Head Edit",
-    "description": "A premium talking-head video with captions, B-roll, and visual hooks.",
-    "videoUrl": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+    "title": "Ui saas animation ",
+    "description": "clear book Ui saas animation ",
+    "videoUrl": "https://www.youtube.com/embed/0bZGd9stugw?si=wyjTcP4lcHgIUcS_"
   },
   {
-    "title": "Founder Talking Head Edit",
-    "description": "A premium talking-head video with captions, B-roll, and visual hooks.",
-    "videoUrl": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+    "title": "Ui Enterprise animation",
+    "description": "enterprise premium dashboard ui saas animation",
+    "videoUrl": "https://www.youtube.com/embed/V4y2qmY7b9k?si=7fCb69hywqdhXVor"
   },
   {
-    "title": "Founder Talking Head Edit",
-    "description": "A premium talking-head video with captions, B-roll, and visual hooks.",
-    "videoUrl": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
-  },
-  {
-    "title": "Founder Talking Head Edit",
-    "description": "A premium talking-head video with captions, B-roll, and visual hooks.",
-    "videoUrl": "https://www.youtube.com/watch?v=YOUR_VIDEO_ID"
+    "title": "Premium Saas Animation",
+    "description": "Enterprise Premium Saas Animation",
+    "videoUrl": "https://www.youtube.com/embed/3Z1Al-pnPJ4?si=MasRe9A7m9xFY6gP"
   }
+ 
 
 ]
