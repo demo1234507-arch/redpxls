@@ -1,29 +1,43 @@
 import React, { useEffect } from 'react';
-import { useLocation } from 'react-router-dom';
 
 export default function RevealProvider({ children }: { children: React.ReactNode }) {
-    const location = useLocation();
-
     useEffect(() => {
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('active');
+                    observer.unobserve(entry.target); // reveal once, then stop watching
                 }
             });
         }, { threshold: 0.1 });
 
-        // Small delay ensures new route's DOM has painted before we query
-        const timeout = setTimeout(() => {
-            const elements = document.querySelectorAll('.reveal');
-            elements.forEach(el => observer.observe(el));
-        }, 0);
+        const observeAll = (root: ParentNode) => {
+            root.querySelectorAll('.reveal:not(.active)').forEach(el => observer.observe(el));
+        };
+
+        // catch whatever's already on the page
+        observeAll(document);
+
+        // catch anything added later, for any reason (route change, pagination, etc.)
+        const mutationObserver = new MutationObserver((mutations) => {
+            for (const mutation of mutations) {
+                mutation.addedNodes.forEach(node => {
+                    if (!(node instanceof HTMLElement)) return;
+                    if (node.classList.contains('reveal') && !node.classList.contains('active')) {
+                        observer.observe(node);
+                    }
+                    observeAll(node);
+                });
+            }
+        });
+
+        mutationObserver.observe(document.body, { childList: true, subtree: true });
 
         return () => {
-            clearTimeout(timeout);
             observer.disconnect();
+            mutationObserver.disconnect();
         };
-    }, [location.pathname]); // 👈 re-run every time the route changes
+    }, []); // runs once for the app's lifetime — no dependency on location at all
 
     return <>{children}</>;
 }
