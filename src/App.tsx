@@ -33,7 +33,7 @@ export default function App() {
               <Route path="/contact-us" element={<ContactPage />} />
               <Route path="/pricing" element={<PricingTiers />} />
               <Route path="/bookcall" element={<BookingSection />} />
-              <Route path="/case-study/:id" element={<CaseStudyDetails />} />
+              {/* <Route path="/case-study/:id" element={<CaseStudyDetails />} /> */}
             </Routes>
           </div>
         </RevealProvider>
