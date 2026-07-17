@@ -48,7 +48,7 @@ useEffect(() => {
      <Work />
 </section>
          
-            <CaseStudies  />
+            {/* <CaseStudies  /> */}
             {/* <ROI /> */}
             <Booking />
             <LeadModal

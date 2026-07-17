@@ -81,14 +81,14 @@ export default function Navigation() {
           >
             Work
           </button>
-
+{/* 
           <button
             type="button"
             onClick={() => goToHomeSection("casestudies")}
             className="nav-link hover:text-red-600 transition-colors"
           >
             Case Studies
-          </button>
+          </button> */}
 
           <Link
             to="/about"
@@ -162,13 +162,13 @@ export default function Navigation() {
             Work
           </button>
 
-          <button
+          {/* <button
             type="button"
             onClick={() => goToHomeSection("casestudies")}
             className="text-left hover:text-red-600"
           >
             Case Studies
-          </button>
+          </button> */}
 
           <Link
             to="/about"
